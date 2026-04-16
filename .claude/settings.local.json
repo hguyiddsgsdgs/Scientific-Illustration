@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/test_plotter.py -v)",
+      "Bash(python -c \"import sys; print\\(sys.executable, sys.version\\)\")",
+      "Bash(pip list *)",
+      "Bash(where pytest *)",
+      "Bash(where python *)",
+      "Bash(C:/download/Anaconda/ancoda/python.exe *)",
+      "Bash(python test_architecture.py)",
+      "Bash(pip install *)",
+      "Bash(python test_architecture_core.py)",
+      "Bash(python test_arch_direct.py)",
+      "Bash(python test_simple.py)",
+      "Bash(python quickstart_architecture.py)",
+      "Bash(python *)",
+      "Bash(ls *)"
+    ]
+  }
+}
